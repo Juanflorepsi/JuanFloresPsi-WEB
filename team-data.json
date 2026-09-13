@@ -1,6 +1,6 @@
 {
   "_readme": "Archivo fuente del equipo. Rellena los campos reales de cada persona aquí y avisa para regenerar las páginas (python3 scripts/build_team.py). No se inventa contenido: mientras 'published' sea false, la página muestra 'Perfil en preparación' aunque bio/approach estén rellenos a medias.",
-  "juan_team_photo": "/assets/juan-flores-hero.jpg",
+  "juan_team_photo": "/assets/team/juan-flores.jpg",
   "juan_team_photo_position": null,
   "members": [
     {
