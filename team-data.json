@@ -1,0 +1,201 @@
+{
+  "_readme": "Archivo fuente del equipo. Rellena los campos reales de cada persona aquí y avisa para regenerar las páginas (python3 scripts/build_team.py). No se inventa contenido: mientras 'published' sea false, la página muestra 'Perfil en preparación' aunque bio/approach estén rellenos a medias.",
+  "members": [
+    {
+      "slug": "maria-paz-sastre",
+      "name": "María Paz Sastre",
+      "role": "Psicóloga · Adultos, parejas y familias",
+      "published": true,
+      "photo": "/assets/team/maria-paz-sastre.jpg",
+      "photo_position": "50% 15%",
+      "bio": [
+        "Soy licenciada en Psicología y cuento con formación específica en Psicología de la Salud y Práctica Clínica, así como en Terapia Familiar y de Pareja. Ejerzo como psicóloga desde 2017 y trabajo principalmente con adultos, parejas y familias.",
+        "A lo largo de estos años he acompañado especialmente a personas con problemas de ansiedad y estado de ánimo, dificultades de adaptación, problemas de pareja y dificultades en las relaciones y dinámicas familiares, además de otras situaciones de malestar y sufrimiento psicológico."
+      ],
+      "sections": [
+        {
+          "heading": "Mi forma de trabajar",
+          "paragraphs": [
+            "Entiendo la terapia desde una mirada global de la persona. Para mí es importante no quedarme únicamente en los síntomas o en el problema concreto que trae a alguien a consulta, sino comprender también su historia, sus circunstancias y el momento vital que está atravesando.",
+            "En terapia busco, por una parte, ofrecer estrategias que ayuden a afrontar mejor las dificultades del día a día y, por otra, comprender qué puede haber detrás del malestar y cuál puede ser el origen de determinados patrones, emociones o síntomas.",
+            "Creo que entender lo que nos ocurre nos ayuda también a relacionarnos de otra manera con ello y abre la posibilidad de hacer cambios."
+          ]
+        },
+        {
+          "heading": "Cuando alguien llega por primera vez a consulta",
+          "paragraphs": [
+            "Hay algo que me parece especialmente importante transmitir: lo que te está ocurriendo no tiene por qué ser algo extraño ni incomprensible. Muchas de las situaciones que nos generan sufrimiento forman parte de experiencias humanas que otras personas también atraviesan, y pueden ser comprendidas y abordadas.",
+            "Sé que pedir ayuda no siempre es fácil. Por eso intento que, desde el primer momento, la consulta sea un espacio en el que puedas sentirte escuchado, comprendido, respetado y no juzgado.",
+            "También creo firmemente que nuestra historia influye en nosotros, pero no tiene por qué determinar nuestro presente ni nuestro futuro. Las personas tenemos capacidad para comprendernos, adaptarnos y cambiar."
+          ]
+        },
+        {
+          "heading": "Cómo entiendo mi trabajo",
+          "quote": "Por complicada que haya sido nuestra historia, todos merecemos la oportunidad de construir una vida plena.",
+          "paragraphs": [
+            "Una de las cosas más importantes que me ha enseñado esta profesión es que detrás de la manera de actuar de una persona suele existir una historia que no siempre conocemos a primera vista.",
+            "Eso me ha enseñado a no juzgar a nadie por una primera impresión y a intentar comprender qué puede haber detrás de lo que vemos.",
+            "También he podido comprobar la enorme capacidad que tenemos las personas para cambiar, adaptarnos y reconstruirnos, incluso después de atravesar momentos difíciles."
+          ]
+        },
+        {
+          "heading": "Formar parte del equipo",
+          "paragraphs": [
+            "Una de las cosas que más valoro de trabajar en este equipo es nuestra manera de entender a quien viene a consulta: como una persona completa, con su historia, sus circunstancias y su forma particular de vivir lo que le ocurre, y no únicamente como un problema o un conjunto de síntomas.",
+            "Para mí, ese respeto por la persona y por su historia es una parte fundamental de la terapia."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ana-sala",
+      "name": "Ana Sala",
+      "role": "Psicóloga · Adolescentes y adultos",
+      "published": true,
+      "photo": "/assets/team/ana-sala.jpg",
+      "photo_position": "45% 15%",
+      "bio": [
+        "Soy Psicóloga General Sanitaria y ejerzo profesionalmente desde 2021. Me gradué en Psicología por la Universidad Católica San Antonio de Murcia (UCAM) y posteriormente realicé el Máster Universitario en Psicología General Sanitaria.",
+        "Trabajo principalmente con adolescentes y adultos, tanto de manera presencial como online. En consulta acompaño con frecuencia a personas que atraviesan problemas de ansiedad, depresión, autoestima, crisis vitales y existenciales o dificultades en sus relaciones de pareja, además de otros problemas emocionales que pueden aparecer en diferentes momentos de la vida.",
+        "Elegí la psicología porque siempre he sentido una curiosidad profunda por el ser humano. Desde pequeña me ha resultado natural observar, escuchar e intentar comprender a las personas sin juzgarlas, conectando lo que hacen con lo que piensan, sienten y han vivido.",
+        "Me interesa especialmente comprender por qué pensamos como pensamos, por qué actuamos de determinadas maneras y, sobre todo, por qué sufrimos. La psicología terminó siendo una forma muy natural de convertir esa curiosidad por las personas en mi profesión."
+      ],
+      "sections": [
+        {
+          "heading": "Mi forma de trabajar",
+          "paragraphs": [
+            "Intento ser muy real y transparente en consulta. No creo que todas las personas necesiten lo mismo ni que exista una única manera de hacer terapia. Hay momentos en los que alguien necesita espacio, tiempo y mucha cautela, y otros en los que necesita preguntas difíciles, confrontar determinadas ideas o empezar a mirar de frente aquello que lleva demasiado tiempo evitando.",
+            "Por eso adapto mi manera de trabajar a la persona que tengo delante. Utilizo el humor, confronto cuando considero que puede ayudar y también puedo ser firme, pero siempre intentando distinguir cuándo una situación requiere carácter y cuándo necesita muchísima delicadeza.",
+            "Adaptarme al paciente no significa dejar de ser auténtica.",
+            "Hay además algo que considero fundamental en mi forma de entender la terapia: la generosidad. Creo profundamente en el valor y en la dignidad de cada persona, incluso en aquellos momentos en los que ella misma ha dejado de verlos.",
+            "Si percibo algo valioso, bonito o admirable en la persona que tengo delante, no siento la necesidad de esconderlo detrás de una distancia profesional artificial. Me gusta poder expresarlo con honestidad.",
+            "Y hago lo mismo con aquellas partes que resultan más difíciles de mirar. Podemos reconocer nuestros puntos débiles y responsabilizarnos de aquello que necesitamos cambiar sin convertirlo en una nueva razón para castigarnos.",
+            "Cuando considero que puede ser útil para el proceso, también propongo tareas o pequeños objetivos para continuar trabajando entre sesiones."
+          ]
+        },
+        {
+          "heading": "Cuando alguien llega por primera vez a consulta",
+          "paragraphs": [
+            "Hay algo que me importa transmitir desde el principio: en mi consulta el centro del proceso es la persona que tengo delante, no yo.",
+            "Mi objetivo no es demostrar nada como profesional, sino ayudar a que esa persona pueda comprender mejor lo que le está ocurriendo, avanzar y encontrar aquello que realmente necesita.",
+            "Creo mucho en la conexión entre las personas y también en que no todos conectamos con todo el mundo. Por mi carácter y por mi manera de trabajar, probablemente no sea la psicóloga adecuada para todas las personas, y para mí eso está bien.",
+            "Quiero que exista libertad y autenticidad también en ese aspecto.",
+            "Si alguien siente que no soy la persona con la que quiere realizar su proceso, puede buscar a otro profesional con quien encaje mejor, sin enfados, sin complejos y sin necesidad de justificarse."
+          ],
+          "quote": "Lo importante no es que alguien se quede conmigo. Lo importante es que encuentre el lugar y la persona que realmente puedan ayudarle.",
+          "quote_position": "end"
+        },
+        {
+          "heading": "Cómo entiendo mi trabajo",
+          "quote": "Aceptar lo que no podemos cambiar sin resignarnos, y trabajar sobre aquello que sí está en nuestras manos.",
+          "quote_position": "start",
+          "paragraphs": [
+            "Creo mucho en aprender a distinguir entre aquello que podemos cambiar y aquello que no depende de nosotros.",
+            "A veces vivimos intentando controlar demasiadas cosas y exigiéndonos hacerlo todo bien. La autoexigencia, el perfeccionismo y una crítica interna excesiva pueden llevarnos a vivir con una sensación permanente de no ser suficientes.",
+            "Aceptar aquello que no depende de nosotros no significa resignarse. Significa dejar de invertir energía en intentar controlar lo incontrolable para dirigirla hacia aquello sobre lo que sí podemos actuar.",
+            "También intento que las personas puedan mirar lo que les ocurre con algo más de perspectiva. Muchas veces no sufrimos únicamente por una emoción, un pensamiento o una dificultad, sino también porque creemos que no deberíamos sentirnos así, que algo funciona mal en nosotros o que somos los únicos a quienes les ocurre.",
+            "Me gusta quitarle drama sin quitarle importancia.",
+            "Que una persona pueda salir de consulta pensando: «Vale, lo que me pasa tiene sentido. Puedo entenderlo y puedo hacer algo con ello».",
+            "Si al terminar una sesión se marcha algo más ligera, con menos peso y con más capacidad para afrontar lo que tiene delante, para mí hemos dado un paso importante."
+          ]
+        },
+        {
+          "heading": "Lo que esta profesión me ha enseñado",
+          "paragraphs": [
+            "Sentarme frente a tantas personas y conocer tantas historias también me ha enseñado muchísimo sobre mí misma.",
+            "Esta profesión me ha obligado a cuestionar algunos de mis propios prejuicios y me ha demostrado una y otra vez que el ser humano es mucho más complejo de lo que podemos observar desde fuera.",
+            "Vivimos en una época en la que es frecuente escuchar que cada vez creemos menos en las personas. A mí mi trabajo me provoca precisamente lo contrario: cada día me ayuda a creer un poco más en ellas.",
+            "He conocido personas con historias, decisiones y maneras de entender la vida muy diferentes. Cuando empiezas a conocer qué existe detrás de alguien, de dónde viene, qué ha vivido, qué teme o qué explica algunas de sus decisiones, resulta mucho más difícil reducirlo a una etiqueta.",
+            "Probablemente ese sea uno de los mayores regalos que me ha dado esta profesión: comprender más y juzgar menos.",
+            "Cada persona que ha pasado por mi consulta ha contribuido, de alguna manera, a construir también la psicóloga y la persona que soy hoy."
+          ]
+        },
+        {
+          "heading": "Formar parte de Juan Flores Psicólogos",
+          "paragraphs": [
+            "Lo que más valoro de Juan Flores Psicólogos es la calidad humana con la que intentamos tratar a cada persona que entra por la puerta.",
+            "Existe un respeto profundo hacia cada paciente, hacia su historia, sus tiempos y su manera particular de vivir aquello que le está ocurriendo.",
+            "Me gusta especialmente la sencillez y la humanidad del equipo. No entiendo nuestro papel como profesionales desde una posición de superioridad respecto al paciente, sino desde la responsabilidad que nos proporcionan nuestra formación y nuestros conocimientos, pero sentándonos frente a la otra persona de persona a persona.",
+            "Creo que esa combinación de profesionalidad, respeto y humanidad define muy bien nuestra manera de trabajar."
+          ]
+        },
+        {
+          "heading": "Un poco más sobre mí",
+          "paragraphs": [
+            "Me encantan las personas y soy muy amiga de mis amigos. Me gusta muchísimo mi profesión, pero tengo claro que yo no soy solamente mi trabajo.",
+            "Fuera de la consulta disfruto haciendo deporte, escuchando música, estando con mi gente y, especialmente, riéndome.",
+            "Para mí, una vida sin risas pierde una parte muy importante de la vida.",
+            "Me encanta reírme y también reírme de mí misma. Creo que ser capaz de hacerlo implica tomar perspectiva, quitar dramatismo a algunas cosas y aceptar que no necesitamos hacerlo todo perfecto ni tomarnos siempre tan en serio."
+          ]
+        },
+        {
+          "heading": "Si estás dudando si pedir ayuda",
+          "paragraphs": [
+            "Te diría algo sencillo: el movimiento también es información.",
+            "Ante la duda, prueba.",
+            "Dar un paso puede ayudarte a comprender mejor en qué momento estás. Quizá descubras que la terapia te ayuda y quieres continuar. Quizá descubras que ahora mismo no la necesitas. Ambas cosas te proporcionan información.",
+            "Muchas veces esperamos tener la certeza absoluta de estar tomando la decisión correcta antes de movernos, cuando esa certeza solo puede aparecer después de haber dado el paso."
+          ],
+          "quote": "A veces hay que moverse para descubrir el camino.",
+          "quote_position": "end"
+        }
+      ]
+    },
+    {
+      "slug": "beatriz-marcos",
+      "name": "Beatriz Marcos",
+      "role": "Psicóloga · Adultos, adolescentes y niños",
+      "published": true,
+      "photo": "/assets/team/beatriz-marcos.jpg",
+      "photo_position": "50% 15%",
+      "bio": [
+        "Soy Psicóloga General Sanitaria y trabajo con adultos, adolescentes y niños, tanto de forma presencial como online.",
+        "Estudié el Grado en Educación Primaria y el Grado en Psicología. Después realicé el Máster Universitario en Psicología General Sanitaria y he ampliado mi formación en Terapia Emocional Sistémica.",
+        "En adultos trabajo especialmente con problemas de ansiedad y otros malestares emocionales. En población infantojuvenil atiendo, entre otras dificultades, problemas de conducta, ansiedad y dificultades familiares o interpersonales, trabajando también con las familias cuando es necesario."
+      ],
+      "sections": [
+        {
+          "heading": "Mi forma de trabajar",
+          "quote": "Comprender antes que juzgar.",
+          "quote_position": "end",
+          "paragraphs": [
+            "Mi manera de hacer terapia es cercana y adaptada a cada persona.",
+            "No creo que exista una única forma de trabajar que funcione para todos. Intento comprender no solo el síntoma que trae a alguien a consulta, sino también su historia, sus relaciones y el contexto en el que ese malestar ha aparecido.",
+            "Si tuviera que resumir mi forma de entender la terapia en una idea sería:"
+          ]
+        },
+        {
+          "paragraphs": [
+            "Muchas de nuestras formas de actuar empiezan a tener sentido cuando conocemos nuestra historia. Comprenderlas no significa resignarnos, sino encontrar un punto de partida desde el que poder cambiar."
+          ]
+        },
+        {
+          "heading": "Por qué elegí la psicología",
+          "paragraphs": [
+            "La psicología fue creciendo en mí poco a poco.",
+            "Siempre me ha interesado comprender a las personas, pero mi propia historia también ha influido mucho en mi manera de vivir esta profesión. Yo misma he necesitado en algunos momentos sentirme escuchada, comprendida y acompañada, y sé el valor que puede tener encontrar ese espacio cuando lo necesitas.",
+            "Por eso, cuando alguien se sienta frente a mí, intento no ver simplemente un problema, sino una persona con su historia y su propia manera de intentar salir adelante."
+          ]
+        },
+        {
+          "heading": "Cuando alguien llega a consulta",
+          "paragraphs": [
+            "Me gusta transmitir que no hace falta saber explicar perfectamente qué te pasa para pedir ayuda.",
+            "A veces basta con sentir que algo no termina de estar bien o que llevamos demasiado tiempo sufriendo de una determinada manera.",
+            "Mi objetivo es ofrecer un espacio seguro y sin juicio, en el que la persona pueda ir entendiendo poco a poco qué le ocurre y hacerlo a su propio ritmo.",
+            "No necesito que alguien salga siempre de una sesión sintiéndose inmediatamente mejor. Hay sesiones que remueven.",
+            "Pero sí me gustaría que saliera sintiéndose escuchado, comprendido y acompañado."
+          ]
+        },
+        {
+          "heading": "Formar parte de Juan Flores Psicólogos",
+          "paragraphs": [
+            "Una de las cosas que más valoro del equipo es poder contar con profesionales con diferentes formaciones y maneras de trabajar.",
+            "Eso nos permite intentar comprender qué necesita cada persona y pensar qué terapeuta puede acompañarla mejor, en lugar de limitarse simplemente a asignarle un profesional.",
+            "Fuera de consulta disfruto especialmente de las cosas sencillas: estar con mi familia y mis amigos, leer y encontrar momentos para parar. Hace unos meses, además, me convertí en madre, una etapa que está siendo un gran aprendizaje también a nivel personal."
+          ]
+        }
+      ]
+    }
+  ]
+}
