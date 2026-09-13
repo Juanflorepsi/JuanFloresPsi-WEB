@@ -45,14 +45,18 @@ def esc(s):
 # ---------------------------------------------------------------------------
 # 1) Tarjetas de /equipo/
 # ---------------------------------------------------------------------------
+JUAN_TEAM_PHOTO = DATA.get("juan_team_photo") or "/assets/juan-flores-hero.jpg"
+JUAN_TEAM_PHOTO_POSITION = DATA.get("juan_team_photo_position")
+
+
 def team_card_juan():
-    return '''        <div class="team-card reveal">
-          <div class="team-photo">
-            <picture>
-              <source srcset="/assets/juan-flores-hero.webp" type="image/webp">
-              <img src="/assets/juan-flores-hero.jpg" alt="Juan Flores Medina, psicólogo sanitario colegiado MU02958" width="1254" height="1254" loading="lazy" decoding="async">
-            </picture>
-          </div>
+    photo_html = photo_picture_html(
+        JUAN_TEAM_PHOTO,
+        "Juan Flores Medina, psicólogo sanitario colegiado MU02958",
+        object_position=JUAN_TEAM_PHOTO_POSITION,
+    )
+    return f'''        <div class="team-card reveal">
+          <div class="team-photo">{photo_html}</div>
           <div class="tc-body">
             <h3>Juan Flores</h3>
             <span class="role">Director</span>
