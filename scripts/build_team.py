@@ -129,6 +129,38 @@ def page_head(m, name, role):
     desc = f"{name}, {role.lower()} en Juan Flores Psicólogos, Guadalupe, Murcia." if m["published"] else \
            f"Perfil de {name} en el equipo de Juan Flores Psicólogos. Próximamente más información."
     canonical = f"https://juanflorespsicologos.com/equipo/{m['slug']}/"
+    image = f"https://juanflorespsicologos.com{m['photo']}" if m.get("photo") else \
+            "https://juanflorespsicologos.com/assets/juan-flores-hero.jpg"
+    is_real = m["published"] and m["bio"]
+
+    jsonld = ""
+    if is_real:
+        person = {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "@id": f"{canonical}#person",
+            "name": name,
+            "jobTitle": role,
+            "url": canonical,
+            "image": image,
+            "worksFor": {"@id": "https://juanflorespsicologos.com/#organizacion"},
+        }
+        breadcrumb = {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://juanflorespsicologos.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Equipo", "item": "https://juanflorespsicologos.com/equipo/"},
+                {"@type": "ListItem", "position": 3, "name": name, "item": canonical},
+            ],
+        }
+        jsonld = (
+            f'<script type="application/ld+json">\n{json.dumps(person, ensure_ascii=False, indent=2)}\n</script>\n'
+            f'<script type="application/ld+json">\n{json.dumps(breadcrumb, ensure_ascii=False, indent=2)}\n</script>\n'
+        )
+
+    robots_tag = "" if is_real else '<meta name="robots" content="noindex, follow">\n'
+
     return f'''<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -141,12 +173,16 @@ def page_head(m, name, role):
 <meta property="og:type" content="profile">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
+<meta property="og:image" content="{image}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:locale" content="es_ES">
 <meta property="og:site_name" content="Juan Flores Psicólogos">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:image" content="{image}">
 <link rel="stylesheet" href="/styles.css">
-{'' if (m["published"] and m["bio"]) else '<meta name="robots" content="noindex, follow">' + chr(10)}</head>
+{jsonld}{robots_tag}</head>
 '''
 
 
